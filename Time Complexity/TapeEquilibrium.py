@@ -1,4 +1,4 @@
-#第一次上传
+#first time submit C66% P100%
 #def solution(A):
 #    lsum = 0
 #    rsum = sum(A)
@@ -8,9 +8,9 @@
 #        rsum -= i
 #        minimal = min(minimal,abs(lsum-rsum))
 #    return minimal
-#错误原因：i的位置应该比len(A)小1才对，后段至少保留一个元素
-#
-#第二次上传
+#error：The position of ‘i’ should equal len(A)-1, for that the bottom half is not empty.
+
+#second time submit C P
 #def solution(A):
 #    lsum = 0
 #    rsum = sum(A)
@@ -20,9 +20,9 @@
 #        rsum -= A[i]
 #        minimal = min(minimal,abs(lsum-rsum))
 #    return minimal
-#错误原因：minimal不能初始化为abs(sum(A))，因为该值可能比后面迭代计算出来的值都更小
+#error：The value of 'minimal' should not initial with abs(sum(A)),this value maybe less than the value calculate next.
 
-#第三次上传 100% 100%
+#third time submit C100% P100%
 def solution(A):
     lsum = A[0]
     rsum = sum(A)-A[0]
