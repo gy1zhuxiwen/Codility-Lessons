@@ -10,7 +10,7 @@
 #    return minimal
 #error£ºThe position of ¡®i¡¯ should equal len(A)-1, for that the bottom half is not empty.
 
-#second time submit C P
+#second time submit C16% P33%
 #def solution(A):
 #    lsum = 0
 #    rsum = sum(A)
